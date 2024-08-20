@@ -15,7 +15,7 @@ body {
 
 header {
     height:150px;
-    background: linear-gradient(180deg,rgb(125, 25, 25), darkred, rgb(15, 12, 10));
+    background: linear-gradient(180deg, darkred, rgb(15, 12, 10));
     color:white;
 
     display: flex;
@@ -25,7 +25,8 @@ header {
 }
 
 header > h1 {
-    font-size:2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:3em;
     margin-bottom:10px;
 }
 
@@ -36,3 +37,49 @@ header > p {
     font-size:0.9em;
 }
 
+main {
+    background-color: white;
+    height:100vh;
+    max-width: 900px;
+    width:100%;
+    margin:auto;
+    padding:20px 15px;
+    border-radius:5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.271);
+
+}
+
+section#container-comandos {
+    display: flex;
+    flex-direction: column;
+}
+
+section#container-comandos> h2 {
+    color:rgb(102, 99, 99);
+    font-size:2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom:30px;
+}
+
+section#container-comandos > div.comando {
+    margin-bottom:20px;
+}
+
+section#container-comandos > div.comando > h3 {
+    background-image: linear-gradient(to right,rgb(194, 47, 47) 2%, transparent);
+    color:white;
+    border-radius:8px;
+    padding:5px;
+}
+
+section#container-comandos > div.comando > p{
+    margin: 5px 0px;
+}
+
+section#container-comandos > div.comando > p.p-comando {
+    display: inline-block;
+    font-weight: bold;
+    border:1px solid gray;
+    margin-top:8px;
+    padding:5px;
+}
