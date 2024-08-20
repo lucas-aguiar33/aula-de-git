@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    height:150px;
+    height:130px;
     background: linear-gradient(180deg, darkred, rgb(15, 12, 10));
     color:white;
 
@@ -39,9 +39,7 @@ header > p {
 
 main {
     background-color: white;
-    height:100vh;
     max-width: 900px;
-    width:100%;
     margin:auto;
     padding:20px 15px;
     border-radius:5px;
@@ -76,7 +74,7 @@ section#container-comandos > div.comando > p{
     margin: 5px 0px;
 }
 
-section#container-comandos > div.comando > p.p-comando {
+p.p-comando {
     display: inline-block;
     font-weight: bold;
     border:1px solid gray;
