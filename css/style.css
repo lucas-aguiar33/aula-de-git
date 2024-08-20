@@ -81,3 +81,7 @@ p.p-comando {
     margin-top:8px;
     padding:5px;
 }
+
+div.comando > div {
+    margin-bottom:10px;
+}
