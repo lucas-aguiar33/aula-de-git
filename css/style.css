@@ -82,6 +82,11 @@ p.p-comando {
     padding:5px;
 }
 
+p.p-comando > span {
+    color:rgb(149, 8, 8)
+}
+
 div.comando > div {
     margin-bottom:10px;
 }
+

@@ -37,7 +37,7 @@
             <div class="comando">
                 <h3>Git Commit</h3>
                 <p>Grava alterações feitas na área de stage como uma nova versão do código.</p>
-                <p class="p-comando">git commit -m "mensagem sobre o que está sendo enviado"</p>
+                <p class="p-comando">git commit -m "<span>mensagem sobre o que está sendo enviado</span>"</p>
             </div>
 
             <div class="comando">
@@ -50,16 +50,16 @@
                 <h3>Git Checkout</h3>
                 <p>Usado para alternar entre branches, criar novos branches ou mudar para uma versão anterior do código em uma branch existente.</p>
                 <div>
-                    Alternar entre as branches:
-                    <p class="p-comando">git checkout nome da branch</p>
+                    <p>Alternar entre as branches</p>
+                    <p class="p-comando">git checkout <span>nome da branch</span></p>
                 </div>
                 <div>
-                    Criar nova branch:
-                    <p class="p-comando">git checkout -b nome da branch</p>
+                    <p>Criar nova branch</p>
+                    <p class="p-comando">git checkout -b <span>nome da branch</span></p>
                 </div>
                 <div>
-                    Voltar para alguma versão:
-                    <p class="p-comando">git checkout id da versão </p>
+                    <p>Voltar para alguma versão</p>
+                    <p class="p-comando">git checkout <span>id da versão</span> </p>
                 </div>
                 <p>* Quando criamos uma branch, muda direto para ela. Mas, para ter certeza, rodar o comando git log.</p>
                 <p>* Criar branch a partir do ponto em que queremos trabalhar em aglo do projeto sem afetar o funcionamento da main. Pegar sempre a versão atualizada.</p>
@@ -67,14 +67,20 @@
 
             <div class="comando">
                 <h3>Git Branch</h3>
-                <p>Para ver quantas branches tem dentro do git e em qual está</p>
+                <p>Para ver quantas branches tem dentro do git e em qual está.</p>
                 <p class="p-comando">git branch</p>
                 <div>
-                    Para remover uma branch:
-                    <p class="p-comando">git branch -d nome da branch</p>
+                    <p>Para remover uma branch</p>
+                    <p class="p-comando">git branch -d <span>nome da branch</span></p>
                 </div>
             </div>
 
+            <div class="comando">
+                <h3>Git Merge</h3>
+                <p>Permite unir o conteúdo de duas ou mais branches em uma única. É usado para integrar alterações feitas em uma branch secundária (branch de desenvolvimento) na branch principal (branch main).</p>
+                <p>Para fazer o merge, é necessário estar na branch main.</p>
+                <p class="p-comando">git merge <span>nome da branch que será adicionada</span></p>
+            </div>
 
 
 
