@@ -41,7 +41,7 @@ main {
     background-color: white;
     max-width: 900px;
     margin:auto;
-    padding:20px 15px;
+    padding:30px;
     border-radius:5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.271);
 
@@ -56,11 +56,11 @@ section#container-comandos> h2 {
     color:rgb(102, 99, 99);
     font-size:2em;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom:30px;
+    margin-bottom:10px;
 }
 
 section#container-comandos > div.comando {
-    margin-bottom:20px;
+    margin:15px 0px;
 }
 
 section#container-comandos > div.comando > h3 {
@@ -72,6 +72,7 @@ section#container-comandos > div.comando > h3 {
 
 section#container-comandos > div.comando > p{
     margin: 5px 0px;
+    
 }
 
 p.p-comando {
